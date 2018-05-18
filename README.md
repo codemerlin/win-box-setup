@@ -13,7 +13,8 @@ Run Powershell in admin mode
 
 ```
 
-Set-ExecutionPolicy Bypass -Scope LocalMachine -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
+Set-ExecutionPolicy Bypass -Scope LocalMachine -Force; 
+            ` iex ((New-Object System.Net.WebClient).DownloadString('http://bit.ly/win-setup'))
 
 
 ```
