@@ -14,7 +14,7 @@ Run Powershell in admin mode
 ```
 
 Set-ExecutionPolicy Bypass -Scope LocalMachine -Force; 
-            ` iex ((New-Object System.Net.WebClient).DownloadString('http://bit.ly/win-setup'))
+            ` iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/codemerlin/win-box-setup/master/setup.ps1'))
 
 
 ```
